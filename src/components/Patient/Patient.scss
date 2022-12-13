@@ -1,0 +1,45 @@
+.container{
+    padding:20px 60px
+}
+
+.head{
+    // display:flex;
+    // justify-content: flex-end;
+    // align-items: center;
+    margin-bottom: 10px;
+    float: left;
+}
+.title{
+    margin-right: auto;
+}
+
+.action{
+    padding-left: 20px;
+}
+.ant-input-search{
+    float: right;
+}
+h2{
+    text-align: center;
+    margin: 33px 0;
+    font-family: cursive;
+    color: #00bcd4;
+    font-size: 23px;
+}
+.addForm{
+    padding: 17px 0;
+}
+@mixin input-mixin {
+    width: 50%;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    padding: 8px 12px;
+    color: #607d8b;
+}
+
+.addInput{
+    @include input-mixin;
+}
+
+
+  
