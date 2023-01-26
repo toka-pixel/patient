@@ -10,7 +10,7 @@ import TitleSearch from "../Layout/Search";
 import TableData from "../Layout/Table";
 import Filter from "../Layout/Filter";
 import swal from 'sweetalert';
-
+//PatientList
 const PatientList: React.FC = () => {
   const { Option } = Select;
 
